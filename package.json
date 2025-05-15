@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch scss/style.scss:style.css",
-    "sass:build": "sass scss/style.scss:style.css"
+    "sass" : "sass --watch ./scss/style.scss style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CJ-Cepe/fm-profile-card.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "CJ-Cepe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CJ-Cepe/fm-profile-card/issues"
